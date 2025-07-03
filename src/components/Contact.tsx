@@ -22,7 +22,7 @@ const Contact = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
-    fetch('http://localhost:5000/api/contact', {
+    fetch('https://portfolio-backend-2o4v.onrender.com/api/contact', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
